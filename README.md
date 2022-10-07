@@ -8,5 +8,7 @@
 # Participantes
     - /ka-lucas
     - /laisleao
- celiname
+    - /celiname
+    - /joziserafim
+    - /NiltonDeMaria
 # Discrição do Site
