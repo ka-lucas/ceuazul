@@ -1,14 +1,10 @@
 //código carousel 
 let count = 1;
-document.getElementById("radio1").checked = true;
-setInterval(function(){
-    nextImage();
- }, 5000)
-function nextImage{
-  count++;
- if(count>4){
-    count = 1;
-}
-  document.getElementById("radio" + count).checked = true;
-}
+setInterval(function() {
+    document.getElementById('slide' + count).checked = true;
+    count++
+    if(count > 5){
+        count = 1;
+    }
+}, 3000)
 //fim código carousel 
