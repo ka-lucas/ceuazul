@@ -93,7 +93,7 @@ input, textarea, button {
 }
 
 .botao:hover {
-    background: #030394;
+    background: #5eacd6;
     box-shadow: inset 2px 2px 2px rgba(6, 32, 136);
     text-shadow: none;
 }
