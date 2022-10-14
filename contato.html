@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="contato.css">
+    <link rel="shortcut icon" href="imagem/patinho.ico" type="image/x-icon">
+</head>
+
+<body background="imagem/background1.jpeg">
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+        <ul class="links">
+            <li><a href="index.html">Incio</a></li>
+            <li><a href="quemsomos.html">Quem somos</a></li>
+            <li><a href="servicos.html">Nossos metódos</a></li>
+            <li><a href="contato.html">Fale conosco</a></li>
+        </ul>
+
+        <!--FORMULARIO-->
+        <div class="premat">
+            <button><a href="matricula.html">Pré<br>matricula</a></button>
+        </div>
+
+    </header>
+    <form>
+        <div>
+            <h3 id="titulo">Preencha o formulário abaixo que nossa equipe entrará em contato</h3>
+            <div>
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label for="nome"><strong>Nome*</strong></label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div class="campo">
+                        <label for="email"><strong>Email principal</strong></label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="campo">
+                        <label for="telefone"><strong>Número de Telefone*</strong></label>
+                        <input type="tel" name="telefone" id="telefone" required>
+                    </div>
+                </fieldset>
+                <br>
+                <div class="campo">
+                    <label for="comentario"><strong>Mensagem</strong></label>
+                    <textarea rows="10" style="width: 30em" id="comentario" name="comentario"></textarea>
+                </div>
+                <br>
+                <p>
+                <button class="botao" type="submit" onsubmit"">Enviar</button>
+                </p>
+                <br>
+    </form>
+</body>
+
+</html>
