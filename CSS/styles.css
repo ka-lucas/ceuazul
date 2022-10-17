@@ -121,22 +121,6 @@ hr{
     border-radius: 10px;
 }
 
-/*Lais*/
-
-/*.box {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #6d8ce8;
-    padding: 25px 5px 25px 5px;
-    border-radius: 15px;
-    width: 40%;
-}*/
-
 fieldset {
     border: 3px solid #281e5d;
 }
