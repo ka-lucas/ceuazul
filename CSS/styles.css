@@ -503,67 +503,56 @@ legend {
 /*fim CSS footer*/
 
 /*CSS pg Quem somos*/
-.pagina{
-    background-image: url(imagem/background1.jpeg);
-    
-}
-.imagem-quem{
+.imagem-quem img{
     margin-left: 25%;
-    position: relative;
-   
+    border-radius: 12px;
 }
-/*.titulo-equipe{
-    margin: 8px;
-    padding: 5px;
-}*/
+.titulo-equipe{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 2rem;
+}
+
+.titulo-equipe h1{
+    font-size: 50px;
+}
+
+.titulo-equipe p{
+    font-size: 20px;
+}
 
 .quem-somos{
-   /* background-image: url(imagem/background2.jpeg);*/
-   /*display: flex;*/
-   justify-content: space-evenly;
-   flex-direction: row;
-   flex-wrap: wrap;
+   background-color: white;
    align-items: center;
    text-align: center;
    padding-top: 2rem;
-   gap: 2rem;
    
 }
+
+
 .missao{
-   /* background-image: url(imagem/background3.jpeg);*/
-   display: flex;
-   justify-content: space-evenly;
-   flex-direction: row;
-   flex-wrap: wrap;
+   background-color: white;
    align-items: center;
    text-align: center;
    padding-top: 2rem;
-   gap: 2rem;
+   
 }
 .visao{
-    /*background-image: url(imagem/background4.jpeg);*/
-
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
+    background-color: white;
     align-items: center;
     text-align: center;
     padding-top: 2rem;
-    gap: 2rem;
+
 }
 .valores{
-    /*background-image: url(imagem/background1.jpeg);*/
-
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
+    background-color: white;
     align-items: center;
     text-align: center;
     padding-top: 2rem;
-    gap: 2rem; 
 }
+
+
 /*CSS form contatos*/
 fieldset {
     border: 0;
