@@ -686,46 +686,4 @@ input, textarea, button {
 }
 /*fim CSS contatos*/
 /*CSS serviços*/
-#sp-img {
-    width: 13rem;
-    height: auto;
-    margin-top: 1rem;
-    border-radius: 10px;
-}
-
-.serviços h1{
-    align-items: center;
-    text-align: center;
-    font-size: 2.4rem;
-    margin-top: 3rem
-}
-
-
-.serviços-geral{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-    padding-top: 10rem;
-    gap: 3rem;
-}
-.serviços-paragrafo{
-    background-color: white;
-    border: solid 1px #090b11;
-    border-radius: 8.5px;
-    padding: 3rem;
-    width: 19rem;
-    height: 50rem;
-}
-
-.serviços-paragrafo p{
-    line-height: 2rem;
-    margin-top: 0rem;
-}
-
-.serviços-paragrafo h4{
-    margin-top: 1rem;
-    font-size: 1.4rem;
-}
+c
