@@ -290,8 +290,8 @@ legend {
 
 .navigation {
     position: absolute;
-    bottom: 160px;
-    left: 850px;
+    bottom: 80px;
+    left: 700px;
     display: flex;
 }
 
