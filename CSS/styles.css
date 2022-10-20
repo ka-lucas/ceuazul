@@ -283,6 +283,20 @@ legend {
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
+@media (max-width: 880px){
+    .content {
+    height: 40%;
+    width: 90%;
+    border-radius: 12px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+ }
+ }
+
+
 .content .slide img {
     height: 100%;
     width: 100%;
@@ -507,6 +521,16 @@ legend {
     margin-left: 25%;
     border-radius: 12px;
 }
+
+@media (max-width: 880px) {
+    .imagem-quem img{
+    margin-left: 25%;
+    border-radius: 12px;
+    height: 50%;
+    width: 50%;
+}
+}
+
 .titulo-equipe{
    display: flex;
    flex-direction: column;
@@ -516,6 +540,12 @@ legend {
 
 .titulo-equipe h1{
     font-size: 50px;
+}
+
+@media (max-width: 880px) {
+    .titulo-equipe h1{
+    font-size: 45px;
+}
 }
 
 .titulo-equipe p{
